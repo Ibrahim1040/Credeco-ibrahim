@@ -1,0 +1,76 @@
+/* logo SportPlayer dans le header */
+.pelouse{
+	background-image: url(../image/goal4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+/* padding top des images sous la navigation */
+
+
+.photo-spp img{
+	width: 100%;
+}
+
+.grandeimg-spp{
+	height: 94.3%;
+	overflow: hidden;
+}
+
+.grandeimg-spp img{
+
+}
+/* fond bleu sous les images */
+
+.fondBleu{
+	
+	background-color:#0f7abf;
+	/*height: 320px;*/
+}
+.fondBleu p{
+	padding-top: 25px;
+	text-align: center;
+	color: white;
+	font-size:x-large;
+}
+.fondBleu img{
+	/*padding-left: 888px;*/
+	float: right;
+	height: 100px;
+}
+.clear{
+	clear: both;
+}
+.fondBleu a{
+	color: white;
+	text-decoration: underline;
+}
+
+/* css pour pouvoir appeller directement le numero en cliquant dessus */
+
+.mobilesOnly {
+	visibility:hidden;
+}
+
+.btn-sport a,.btn-sport strong{
+	display: flex;
+	justify-content: center;
+}
+#images{
+	height: 100%;
+}
+#images img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+
+

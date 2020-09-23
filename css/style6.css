@@ -1,0 +1,9 @@
+body{
+	padding-bottom: 10rem;
+}
+#image{
+    background-image: url(https://picsum.photos/1920/400?image=1002);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 15rem;
+}

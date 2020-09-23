@@ -1,0 +1,17 @@
+#exempleImage{
+	position: fixed;
+	bottom:0;
+	left:50%;
+	z-index: 2000;
+}
+.lnr{
+	font-size: 3rem;
+}
+input:focus{
+	background-color: lightblue !important;
+	-webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 2s;
+}
+input{
+	/*border-radius: 0px !important;*/
+}

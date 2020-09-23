@@ -1,0 +1,6 @@
+.photo-a {
+    background-image: url(https://picsum.photos/1920/1080?image=202);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    min-height: 15rem;
+}

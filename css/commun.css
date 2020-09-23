@@ -1,0 +1,91 @@
+/* éléments communs à toutes les pages */
+
+/* Header */
+
+.headerRed{
+	background-color: red;
+	height: 40px;
+}
+.vingtCinqPourCent{
+	width: 25%;
+}
+
+.para1{
+	font-size: 1rem;
+
+}
+
+/* Map */
+
+.plan>div{
+	height: 500px;
+	background-color: blue;
+}
+.titreRougeh1{
+	color:navy;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	text-transform:uppercase;
+}
+
+.texteSimple{
+	text-transform: lowercase;
+
+}
+.h3Rouge{
+	text-transform:uppercase;
+	color:navy !important;
+	
+}
+
+/* footer */
+
+.footer{
+	height:90px;
+}
+.fond{
+	background-color: black;
+}
+.souligneAccueil{
+	text-decoration:underline;
+
+}
+.footerText{
+	text-align: center;
+
+}
+/* fin du footer */
+
+
+
+/*
+ Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+.para1,.para2{
+	font-size: 1.5rem;
+}
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+.para1,.para2{
+	
+}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+.para1,.para2{
+	font-size: 2rem;
+}
+ }
+ @media (max-width: 768px) { 
+.para1,.para2{
+	margin-bottom: 0;
+}
+ }

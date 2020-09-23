@@ -1,0 +1,24 @@
+#main-jumbotron{
+	background-image: url("https://picsum.photos/1920/300?image=500");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+/*
+.jumbotron-fluid{
+	padding: 1rem;
+}
+[class$="success"]{
+	background-color: lightgreen;
+}
+
+.breadcrumb{
+	background: none;
+}
+*/
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #6c757d;
+    content: ">";
+}

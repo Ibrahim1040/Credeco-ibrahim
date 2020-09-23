@@ -1,0 +1,44 @@
+
+.titreRouge h1{
+	color: red;
+	padding-top: 50px;
+	text-align: center;
+}
+.makito{
+	padding-top: 30px;
+}
+.textileObjet{
+	
+	color: navy;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+}
+/*
+
+@media (max-width:576px) { 
+.catalogue {
+	padding-top:100px;
+}
+}
+
+/* Medium devices (tablets, 768px and up)
+@media (max-width:768px) { 
+.catalogue {
+	padding-top:100px;
+}
+}
+*/
+/* Large devices (desktops, 992px and up)
+.catalogue {
+	padding-top:20px;
+}
+}
+@media (max-width:992px) { 
+*/
+
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+
+ }
+ */

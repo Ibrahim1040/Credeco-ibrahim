@@ -1,0 +1,20 @@
+.full-image{
+	background-image: url("https://picsum.photos/1920/500?image=528");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	min-height: 20rem;
+}
+#intro{
+	background-image: url("https://picsum.photos/1920/500?image=729");	
+}
+#intro>.row,#suite>.row{
+	
+	min-height: 20rem;
+}
+#intro>.row>div{
+	background-color:  rgba(0,0,0,0.5);
+}
+#suite{
+	background-image: url("https://picsum.photos/1920/500?image=802");	
+}
